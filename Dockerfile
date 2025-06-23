@@ -30,4 +30,4 @@ COPY . .
 EXPOSE 8501
 
 # Run the Streamlit app
-CMD ["streamlit", "run", "finall.py"]
+CMD ["streamlit", "run", "final.py"]

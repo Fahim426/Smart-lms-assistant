@@ -10,5 +10,5 @@ services:
       - .env
     volumes:
       - .:/app
-    command: streamlit run finall.py
+    command: streamlit run final.py
     restart: unless-stopped
