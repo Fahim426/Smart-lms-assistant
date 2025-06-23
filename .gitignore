@@ -1,0 +1,17 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.log
+*.sqlite3
+*.wav
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.env
+.env.*
+.cache/
+venv/
+.idea/
+.DS_Store
+lms_assistant.log

@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  lms-assistant:
+    build: .
+    container_name: lms-assistant
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: streamlit run finall.py
+    restart: unless-stopped
