@@ -23,7 +23,7 @@ st.set_page_config(page_title="Smart LMS Assistant", layout="centered")
 
 @st.cache_resource
 def load_models():
-    whisper_model = whisper.load_model("base")
+    whisper_model = whisper.load_model("tiny")
     return whisper_model
 
 # Preprocess image for Tesseract OCR
